@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+body {
+    font-family: Cabin;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-bar {
+    background-color: #255ee9;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem  1.5rem;
+}
+
+.logo-bar {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    padding-right: 1rem;
+}
+
+.jumbo {
+    background-color: #25e928;
+    color: white;
+    padding: 5rem;
+    justify-content:center;
+    align-content: center;
+}
+
+.jumbo button {
+}
+
+.invite {
+    background-color: #ed2d2d;
+    color: white;
+    padding: 5rem;
+    align-items: center;
+}
+
+.column {
+    padding: 1rem;
+}
+.big-column {
+    width: 55%;
+}
+
+.small-column {
+    width: 45%; 
+}
+
+.download {
+    background-color: #25e928;
+    color: white;
+    padding: 5rem;
+    align-items: center;
+}
+
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 2rem;
+    
+}
+
+.lan-logo {
+    width: 10%;
+    
+}
+
+footer nav
+{ width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+}
