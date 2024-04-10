@@ -212,8 +212,11 @@ footer nav {
 
 footer nav ul li {
     list-style: none;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
 }
 
 footer nav ul li:first-child {
     color: #7289da;
+    font-weight: bold;
 }
