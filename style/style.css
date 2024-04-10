@@ -175,10 +175,21 @@ header ul li {
     align-self: center;
 } */
 
+.scarica-mac {
+    background-color: #7289da;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+
+
 footer {
     background-color: #23272a;
     color: white;
-    padding: 2rem;
+    display: flex;
+    padding: 5rem;
     
 }
 
@@ -187,21 +198,16 @@ footer {
     
 }
 
-footer nav { width: 90%;
+footer nav { 
+    width: 90%;
     display: flex;
-    flex-direction: column;
-}
-
-footer nav ul {
-    display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
 }
 
+.footer nav ul {
+    /* display: flex;
+    justify-content: space-between;
+} 
 
-.scarica-mac {
-    background-color: #7289da;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 2rem;
-}
+
