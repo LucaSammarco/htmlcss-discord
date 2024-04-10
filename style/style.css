@@ -30,10 +30,11 @@ body {
 
 .logo-bar button {
     background-color: white;
-    color: black;
+    /* color: black; */
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 2rem;
+    border-color: ;
 }
 
 .logo-bar a {
@@ -193,12 +194,12 @@ footer {
     color: white;
     display: flex;
     padding: 5rem;
-    
+   
+
 }
 
-.lan-logo {
-    width: 10%;
-    
+.lan-log {
+    padding-bottom: 2rem;
 }
 footer h3 {
     color: #7289da;
@@ -214,9 +215,48 @@ footer nav ul li {
     list-style: none;
     margin-bottom: 1rem;
     font-size: 0.8rem;
+    
 }
 
-footer nav ul li:first-child {
+footer nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer nav ul li:first-child a{
     color: #7289da;
     font-weight: bold;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.logo-bar2 {
+    background-color: #23272a ;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1rem 6rem;
+    color: white;
+    
+}
+
+hr {
+    border: 0.5px solid #7289da;
+    
+    padding-left: 610rem;
+}
+
+.logo-bar2 button {
+    background-color: #7289da;
+    /* color: black; */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    border-color: ;
 }
