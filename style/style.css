@@ -51,7 +51,7 @@ header ul li {
 }
 
 .jumbo {
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -170,6 +170,9 @@ header ul li {
 .download h2{
     margin-bottom: 3rem;
     justify-content: center;
+    background-image: url(../img/stars.svg);
+    background-size: 10rem;
+    background-repeat: repeat
 }
 /* .download-section img {
     align-self: center;
@@ -197,7 +200,9 @@ footer {
     width: 10%;
     
 }
-
+footer h3 {
+    color: #7289da;
+}
 footer nav { 
     width: 90%;
     display: flex;
@@ -205,9 +210,10 @@ footer nav {
     justify-content: space-between;
 }
 
-.footer nav ul {
-    /* display: flex;
-    justify-content: space-between;
-} 
+footer nav ul li {
+    list-style: none;
+}
 
-
+footer nav ul li:first-child {
+    color: #7289da;
+}
