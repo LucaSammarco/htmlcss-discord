@@ -22,14 +22,18 @@ body {
 .logo-bar {
     background-color: #255ee9;
     display: flex;
-    justify-content: space-between;
-    padding: 1rem  1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem  1rem;
+    color: white;
 }
 
-.logo-bar {
-    display: flex;
-    align-items: center;
-    color: white;
+.logo-bar button {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
 }
 
 .logo-bar a {
@@ -47,14 +51,34 @@ header ul li {
 }
 
 .jumbo {
-    background-color: #25e928;
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
-    padding: 5rem;
-    justify-content:center;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 15rem;    
 }
 
-.jumbo button {
+.jumbo h1 {
+    font-size: 3rem;
+    
+    text-align: center;
+}
+
+.jumbo p {
+    font-size: 1.2rem;
+    /* width: 100%; */
+    
+
+}
+
+.jumbo-buttons {    
+    display: flex;
+    padding-right: 3rem;
+
 }
 
 .invite {
