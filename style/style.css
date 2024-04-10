@@ -59,25 +59,44 @@ header ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6rem 15rem;    
+    padding: 5rem 15rem 7.5rem 15rem;    
 }
 
 .jumbo h1 {
-    font-size: 3rem;
-    
+    font-size: 2.5rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .jumbo p {
-    font-size: 1.2rem;
-    /* width: 100%; */
+    font-size: 1.23rem;
+    text-align: center;
     
 
 }
 
-.jumbo-buttons {    
-    display: flex;
-    padding-right: 3rem;
+.jumbo-buttons button {    
+    /* display: flex; */
+    margin: 1rem 0.5rem;
+    font-size: 1.1rem;
+}
+
+.mac {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+
+}
+
+.browser {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
 
 }
 
